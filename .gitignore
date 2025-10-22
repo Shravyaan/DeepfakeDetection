@@ -1,0 +1,36 @@
+# .gitignore
+# Large data files
+data/
+extracted_faces/
+__pycache__/
+
+# Model checkpoints and large files
+model_development/checkpoints/
+model_development/logs/
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+
+# Environment variables
+.env
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pth
+*.pt
+*.bin
